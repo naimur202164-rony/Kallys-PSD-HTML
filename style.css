@@ -1,0 +1,104 @@
+/* Top section */
+
+* {
+  margin: 0;
+  padding: 0;
+}
+#top {
+    background-image: url("./img/banner.jpg");
+    position: relative;
+  }
+.top-overlay{
+    position:absolute;
+    top:0;
+    left:0;
+    bottom: 0;
+    right: 0;
+    background-color: rgba(0,0,0,0.5);
+    width: 100%;
+    height: 100;
+
+}
+
+.menu{
+   padding-top: 40px;
+}
+.menu ul li {
+  margin: 0 16px;
+}
+.menu ul li:nth-last-child(1) {
+  margin-right: 0px;
+}
+.bannerText {
+  padding: 120px 160px 250px 187px;
+  position: relative;
+}
+.bannerText h1 {
+  text-align: center;
+  font-size: 5;
+  color: #fff;
+}
+.bannerText p {
+  padding: 50px 80px;
+  color: #fff;
+  text-align: center;
+}
+
+
+.bannerBtn {
+  text-align: center;
+
+}
+
+.bannerBtn a:nth-child(1){
+    background-color:#fb414e ;
+    padding: 10px  30px;
+}
+
+.bannerBtn a {
+    margin: 0px 10px;
+
+  border: 1px solid #fb414e;
+  padding: 10px 20px;
+  text-decoration: none;
+  color: #fff;
+}
+
+.menu ul li a {
+  color: #fff !important;
+  font-weight: 600;
+}
+
+/* Bootstrap overwirte */
+.navbar-collapse {
+  flex-grow: 0;
+}
+
+
+/* Service setion */
+.serviceShort-area{
+  margin-top: -70px;
+  position: relative;
+}
+.serviceShort-item{
+    background: #fb414e;
+    padding: 60px 50px 50px;
+    color:#fff
+}
+.serviceShort-item h5{
+  margin-top: 35px ;
+}
+.serviceShort-item2{
+  background-color: #202b30;
+}
+/* 202b30 */
+.serviceShort-item h5 ::after{
+  content: "";
+  width: 50px;
+  height: 2px;
+  display: block;
+  position: relative;
+  background-color:#fff;
+  margin:25px 0px;
+
+}
