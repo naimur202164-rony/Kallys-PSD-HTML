@@ -102,3 +102,19 @@
   margin:25px 0px;
 
 }
+
+
+/* BusinessPlan */
+
+#businessPlan{
+  margin:60px;
+  background-color: #202b30;
+}
+
+.businessPlan-area{
+  padding: 60px 0px;
+}
+.businessPlan-Content{
+  color:#fff;
+  padding-right: 50px;
+}
