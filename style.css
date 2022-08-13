@@ -155,4 +155,22 @@
 
 
 /* Galary */
+/* OwlMix  */
 
+
+#owlMix{
+
+}
+.owlMixMenu {
+  text-align: center;
+}
+.owlMixMenu ul li{
+  list-style: none;
+  display: inline-block;
+  text-align: center;
+} 
+.owlMixMenu ul li a{
+text-decoration: none;
+text-transform: uppercase;
+color:#6f6f6f
+}
