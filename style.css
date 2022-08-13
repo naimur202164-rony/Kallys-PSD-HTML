@@ -159,14 +159,12 @@
 
 
 #owlMix{
-  margin: 100px 60px 50px 60px;
-  
-  padding: 100px 0px;
+ padding: 0px;
 }
-/* .imageArea{
+.imageArea{
   margin:10px 5px;
   padding: 10px 20px;
-} */
+}
 .owlMixMenu {
   text-align: center;
 }
@@ -182,8 +180,8 @@ text-transform: uppercase;
 color:#6f6f6f
 }
 
-img{
+/* img{
   width: 330px;
   height: auto;
   margin: 10px 0;
-}
+} */
